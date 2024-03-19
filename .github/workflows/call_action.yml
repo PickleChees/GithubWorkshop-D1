@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-        uses: PickleChees/hello-world-docker-action@v1
+        uses: PickleChees/hello-world-docker-action@V1
         with:
           who-to-greet: '@octocat'
